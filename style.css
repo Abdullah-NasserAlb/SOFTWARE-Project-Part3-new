@@ -31,7 +31,14 @@ body {
     "Segoe UI", sans-serif;
 
   /* almost white, very soft blue tint */
-  background: radial-gradient(circle at top left, #f5f9ff 0, #f9fbff 40%, #ffffff 100%);
+  background: linear-gradient(
+      180deg,
+      #D5E4FF 0%,   /* slightly darker light blue at the top */
+      #3C8CFF 22%,  /* stronger sky blue */
+      #15286F 50%,  /* dark rich blue in the middle */
+      #050F3F 78%,  /* very deep navy band */
+      #1B4ED8 100%  /* medium-dark blue at the bottom */
+    );
   color: var(--text-main);
 }
 
