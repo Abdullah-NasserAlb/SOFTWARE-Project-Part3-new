@@ -263,8 +263,15 @@ main {
   display: none;
 }
 
+/* make the content area also very light */
 .tab-section.active {
   display: block;
+  background: #f9fafb;
+}
+
+/* optional: slightly lighter tab bar strip */
+.tab-bar {
+  background: #f8fafc;
 }
 
 /* ---------- CARDS & GRIDS ---------- */
